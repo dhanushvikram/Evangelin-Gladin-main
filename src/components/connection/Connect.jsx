@@ -217,7 +217,7 @@ export default function ContactSection() {
                                 value={formik.values.interest}
                                 className="w-full rounded-md ps-2 text-white text-xl cursor-pointer border-b-2 border-black outline-none py-3 bg-[#d3d3d363]"
                             >
-                                <option value="">Select Interest</option>
+                                <option value="" className="text-[#d85c8a]">Select Interest</option>
                                 {interests.map((interest, index) => (
                                     <option className="bg-[#1e1833] text-[#d85c8a]" key={index} value={interest}>
                                         {interest}

@@ -19,16 +19,16 @@ const Home: React.FC = () => {
           </p>
 
           <div className="social-media mt-[-10px] sm:mt-0">
-            <a href="https://www.facebook.com/evangelinglen">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/evangelinglen">
               <i className="bx bxl-facebook"></i>
             </a>
-            <a href="https://x.com/evangelingladin">
+            <a target="_blank" rel="noopener noreferrer" href="https://x.com/evangelingladin">
               <i className="bx bxl-twitter"></i>
             </a>
-            <a href="https://www.instagram.com/evangelingladin/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/evangelingladin/">
               <i className="bx bxl-instagram-alt"></i>
             </a>
-            <a href="https://www.linkedin.com/in/evangelin-gladin-profile/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/evangelin-gladin-profile/">
               <i className="bx bxl-linkedin"></i>
             </a>
           </div>

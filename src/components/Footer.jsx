@@ -14,15 +14,15 @@ export default function FooterTest() {
           <div>
             <h3 className="text-pink-400 font-semibold mb-3">Services</h3>
             <ul className="space-y-1">
-              <li>Marketing Strategies</li>
-              <li>Predictive Market Analysis</li>
-              <li>Lead Generation</li>
-              <li>Branding</li>
-              <li>Web Development</li>
-              <li>Social Media Management</li>
-              <li>Tech Development</li>
-              <li>Seo</li>
-              <li>Website in 3 days</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Marketing Strategies</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Predictive Market Analysis</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Lead Generation</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Branding</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Web Development</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Social Media Management</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Tech Development</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Seo</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Website in 3 days</li>
             </ul>
           </div>
 
@@ -30,12 +30,12 @@ export default function FooterTest() {
           <div>
             <h3 className="text-pink-400 font-semibold mb-3">Industries</h3>
             <ul className="space-y-1">
-              <li>B2B Businesses</li>
-              <li>B2C Businesses</li>
-              <li>Logistics Businesses</li>
-              <li>Saas Company</li>
-              <li>Start Up</li>
-              <li>B2B Exporter</li>
+              <li className='hover:text-pink-400 cursor-pointer'>B2B Businesses</li>
+              <li className='hover:text-pink-400 cursor-pointer'>B2C Businesses</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Logistics Businesses</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Saas Company</li>
+              <li className='hover:text-pink-400 cursor-pointer'>Start Up</li>
+              <li className='hover:text-pink-400 cursor-pointer'>B2B Exporter</li>
             </ul>
           </div>
 
@@ -43,10 +43,10 @@ export default function FooterTest() {
           <div>
             <h3 className="text-pink-400 font-semibold mb-3">Company</h3>
             <ul className="space-y-1">
-              <Link to="/about"><li>About Us</li></Link>
-              <Link to="/services"><li>Services</li></Link>
-              <Link to="/blog"><li>Blog</li></Link>
-              <Link to="/contact"><li>Contact</li></Link>
+              <Link to="/about"><li className='hover:text-pink-400'>About Us</li></Link>
+              <Link to="/services"><li className='hover:text-pink-400'>Services</li></Link>
+              <Link to="/blog"><li className='hover:text-pink-400'>Blog</li></Link>
+              <Link to="/contact"><li className='hover:text-pink-400'>Contact</li></Link>
             </ul>
           </div>
 
@@ -55,11 +55,11 @@ export default function FooterTest() {
             <h3 className="text-pink-400 font-semibold mb-3">Follow Us On</h3>
             <div className="flex space-x-3">
               <a href="https://www.facebook.com/evangelinglen" target="_blank"
-                rel="noopener noreferrer"><FaFacebookF size={30} className="text-white text-lg bg-black p-2 rounded-md " /></a>
+                rel="noopener noreferrer"><FaFacebookF size={30} className="text-white hover:text-pink-400 text-lg bg-black p-2 rounded-md " /></a>
               <a href="https://www.instagram.com/evangelingladin/" target="_blank"
-                rel="noopener noreferrer"><FaInstagram size={30} className="text-white text-lg bg-black p-2 rounded-md " /></a>
+                rel="noopener noreferrer"><FaInstagram size={30} className="text-white hover:text-pink-400 text-lg bg-black p-2 rounded-md " /></a>
               <a href="https://www.linkedin.com/in/evangelin-gladin-profile/" target="_blank"
-                rel="noopener noreferrer"><FaLinkedinIn size={30} className="text-white text-lg bg-black p-2 rounded-md " /></a>
+                rel="noopener noreferrer"><FaLinkedinIn size={30} className="text-white hover:text-pink-400 text-lg bg-black p-2 rounded-md " /></a>
             </div>
           </div>
         </div>
