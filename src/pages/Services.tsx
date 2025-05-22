@@ -50,27 +50,27 @@ const Services: React.FC = () => {
 
         <div className="services-container">
           <div className="services-box">
-            <h3>30-Day Clarity Sprint (Positioning + Roadmap)</h3>
+            <h3>30-Day Clarity Sprint <br /> (Positioning + Roadmap)</h3>
             <p>
-              This focused sprint is designed to help you define your unique value and create a clear, actionable plan. Over 30 days, you’ll gain insight into your positioning, identify your goals, and map out the next steps to move forward with confidence and purpose.
+             This focused sprint is designed to help you define your unique value and create a clear, actionable plan. Over 30 days, you'll gain insight into your positioning, identify your goals, and map out the next steps to move forward with confidence and purpose.
             </p>
             <Link to="#" className="btn">
               Read More
             </Link>
           </div>
           <div className="services-box">
-            <h3>60-Day Growth Activation (Brand + Outreach Setup)</h3>
+            <h3>60-Day Growth Activation <br /> (Brand + Outreach Setup)</h3>
             <p>
-              This program helps you build a strong brand presence and establish effective outreach channels. Over 60 days, you’ll develop key brand elements and set up strategies to connect with your audience, paving the way for sustainable growth.
+              This 60-day journey is built to strengthen your brand identity and establish powerful outreach channels. You'll define your brand voice, design key assets, and implement connection strategies that align with your audience, setting a strong foundation for lasting growth.
             </p>
             <Link to="#" className="btn">
               Read More
             </Link>
           </div>
           <div className="services-box">
-            <h3>90-Day Scale-Up Support (Campaigns + Planning)</h3>
+            <h3>90-Day Scale-Up Support <br /> (Campaigns + Planning)</h3>
             <p>
-              This phase focuses on executing targeted campaigns and detailed planning to scale your business. Over 90 days, you'll receive guidance to optimize your marketing efforts, track performance, and adjust strategies to maximize impact and growth.
+              This 90-day phase helps you scale through strategic campaigns and performance-based planning. You'll receive expert guidance to launch, measure, and refine your efforts, ensuring your business grows with intention and adapts to changing needs effectively.
             </p>
             <Link to="#" className="btn">
               Read More
