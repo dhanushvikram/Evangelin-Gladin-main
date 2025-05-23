@@ -230,7 +230,7 @@ export default function ContactSection() {
 
                             <button
                                 type="submit"
-                                className="w-full ps-2 text-xl py-4 mt-6 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold rounded-xl"
+                                className="w-full ps-2 text-xl py-4 mt-6 bg-gradient-to-r from-pink-500 to-purple-600 hover:to-pink-500 hover:from-purple-600 text-white font-semibold rounded-xl"
                             >
                                 Book Demo
                             </button>

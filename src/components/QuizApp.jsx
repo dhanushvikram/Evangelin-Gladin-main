@@ -22,17 +22,17 @@ export default function QuizPopup() {
   return (
     <>
       {showMessage && (
-        <div className="fixed bottom-20 right-6 sm:right-28 bg-white text-black px-4 py-2 rounded-lg shadow-lg animate-slide-in z-40">
+        <div className="fixed bottom-20 right-32 sm:right-32 bg-white text-black px-4 py-4 rounded-lg shadow-lg text-2xl font-semi-bold animate-slide-in z-40">
           Need help scaling? Try the quiz!
         </div>
       )}
 
       <button
         onClick={() => setShowQuiz(true)}
-        className="fixed bottom-4 right-4 p-4 bg-blue-600 text-white rounded-full shadow-lg z-50"
+        className="fixed bottom-16 right-8 p-6 rounded-full z-50 shadow-xl bg-gradient-to-tr from-purple-500 via-pink-500 to-red-500 hover:from-pink-500 hover:to-yellow-500 transition-all duration-500 animate-float ring-2 ring-white ring-opacity-30 hover:ring-opacity-60"
       >
         <span className="absolute -top-2 -right-2 h-4 w-4 rounded-full bg-green-400 animate-ping"></span>
-        <span className="text-3xl">❓</span>
+        <span className="text-3xl text-white drop-shadow-[0_0_5px_rgba(255,255,255,0.9)]">❓</span>
       </button>
 
       {showQuiz && (
