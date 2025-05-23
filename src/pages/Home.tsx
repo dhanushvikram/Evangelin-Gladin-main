@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FooterTest from '../components/Footer';
-import ContactSection from '../components/connection/Connect';
-import QuizPopup from '../components/QuizApp';
 
 
 const Home: React.FC = () => {
@@ -68,10 +65,7 @@ const Home: React.FC = () => {
             className="max-h-[500px] w-full object-contain"
           />
         </div>
-        <QuizPopup />
       </section>
-      <ContactSection />
-      <FooterTest />
     </>
   );
 };

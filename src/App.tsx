@@ -10,6 +10,9 @@ import Contact from './pages/Contact';
 import './styles/style.css';
 import './components/custom/CustomButton/styles.module.css';
 import './components/custom/Image/styles.module.css';
+import FooterTest from './components/Footer';
+import ContactSection from './components/connection/Connect';
+import QuizPopup from './components/QuizApp';
 
 function App() {
 
@@ -25,10 +28,13 @@ function App() {
           <Route path="/results" element={<Results />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <QuizPopup />
+        <ContactSection />
+        <FooterTest />
       </div>
 
     </Router>
-    
+
   );
 }
 
