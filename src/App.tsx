@@ -13,12 +13,20 @@ import './components/custom/Image/styles.module.css';
 import FooterTest from './components/Footer';
 import ContactSection from './components/connection/Connect';
 import QuizPopup from './components/QuizApp';
+import ScrollToTop from './components/ScrollToTop';
+import BusinessStrategy from './pages/servicesPage/BusinessStrategy';
+import BrandingServices from './pages/servicesPage/Branding';
+import DigitalPresenceSetup from './pages/servicesPage/DigitalPresence';
+import SalesFunnelLeadEngine from './pages/servicesPage/SalesFunnel';
+import ContentLeadership from './pages/servicesPage/ContentLeadership';
+import MentorshipPage from './pages/servicesPage/Mentorship';
 
 function App() {
 
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,6 +35,12 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/results" element={<Results />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services/business-strategy" element={<BusinessStrategy />} />
+          <Route path="/services/branding" element={<BrandingServices />} />
+          <Route path="/services/digital-presence" element={<DigitalPresenceSetup />} />
+          <Route path="/services/sales-funnel" element={<SalesFunnelLeadEngine />} />
+          <Route path="/services/content-leadership" element={<ContentLeadership />} />
+          <Route path="/services/mentorship" element={<MentorshipPage />} />
         </Routes>
         <QuizPopup />
         <ContactSection />
